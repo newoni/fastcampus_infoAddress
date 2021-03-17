@@ -1,50 +1,39 @@
 package com.fastcampus.javaallinone.project3.mycontact.domain;
 
+import lombok.*;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.time.LocalDate;
 
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@RequiredArgsConstructor
+@Data
 public class Person{
     @Id
     @GeneratedValue
     private Long id;
 
+    @NonNull
     private String name;
 
+    @NonNull
     private int age;
 
+    private String hobby;
 
-    public Long getId() {
-        return id;
-    }
+    @NonNull
+    private String bloodType;
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+    private String address;
 
-    public String getName() {
-        return name;
-    }
+    private LocalDate birthday;
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    private String job;
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                '}';
-    }
+    @ToString.Exclude
+    private String phoneNumber;
 }

@@ -66,6 +66,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -89,38 +90,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.hello#1">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.PersonRepositoryTest.hashCodeandEquals">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="HelloWorldControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.fastcampus.javaallinone.project3.mycontact.controller.HelloWorldControllerTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="HelloWorldControllerTest.helloWorld" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -185,6 +167,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="PersonRepositoryTest.hashCodeandEquals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.fastcampus.javaallinone.project3.mycontact.repository.PersonRepositoryTest.hashCodeandEquals&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="hello#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/hello.http" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -197,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.hello#1" />
+        <item itemvalue="Gradle.PersonRepositoryTest.hashCodeandEquals" />
         <item itemvalue="Gradle.PersonRepositoryTest.curd" />
+        <item itemvalue="HTTP Request.hello#1" />
         <item itemvalue="Gradle.HelloWorldControllerTest.mockMvcTest" />
         <item itemvalue="Gradle.HelloWorldControllerTest.helloWorld" />
-        <item itemvalue="Gradle.HelloWorldControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +221,9 @@
       <workItem from="1615705367895" duration="22000" />
       <workItem from="1615705407993" duration="4000" />
       <workItem from="1615726382690" duration="7016000" />
+      <workItem from="1615791803771" duration="2727000" />
+      <workItem from="1615798954102" duration="395000" />
+      <workItem from="1615814206654" duration="651000" />
     </task>
     <servers />
   </component>
