@@ -37,10 +37,9 @@ class PersonRepositoryTest {
     }
 
     @Test
-    void allArgsConstructorTest(){
-        Person person = new Person(1L,"martin", 10, "게임", "A", "집", LocalDate.of(2019,1,1),"백수","010-0000-00000=");
+    void ConstructorTest() {
+        Person person = new Person("martin", 10,"A");
     }
-
     @Test
     void hashCodeandEquals(){
         Person person1 = new Person("martin",10, "A");

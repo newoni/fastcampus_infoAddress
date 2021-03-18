@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController //controller, responsebody는 restController를 포함함
 public class HelloWorldController {
 
-    @PostMapping(value="/api/helloWorld")
+    @GetMapping(value="/api/helloWorld")
     public String helloWorld(){
         return "HELLO WORLD";
     }
