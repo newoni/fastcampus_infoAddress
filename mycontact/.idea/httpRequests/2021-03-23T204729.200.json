@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "name": "martin",
+  "age": 10,
+  "hobby": null,
+  "bloodType": "A",
+  "address": null,
+  "birthday": {
+    "yearOfBirthday": 1991,
+    "monthOfBirthday": 8,
+    "dayOfBirthday": 15
+  },
+  "job": null,
+  "phoneNumber": null,
+  "block": null
+}

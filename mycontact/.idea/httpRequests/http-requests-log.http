@@ -1,3 +1,33 @@
+GET http://localhost:8080/api/person?id=1
+
+<> 2021-03-23T204729.200.json
+
+###
+
+GET http://localhost:8080/api/person?id=1
+
+<> 2021-03-23T204559.500.json
+
+###
+
+GET http://localhost:8080/api/person?id=1
+
+<> 2021-03-23T204237.500.json
+
+###
+
+GET http://localhost:8080/api/person/?id=1
+
+###
+
+GET http://localhost:8080/api/person?id=1
+
+###
+
+GET http://localhost:8080/api/person?id=1
+
+###
+
 GET http://localhost:8080/api/helloWorld
 
 ###
