@@ -6,6 +6,7 @@ import org.springframework.validation.annotation.Validated;
 
 import javax.persistence.*;
 import javax.validation.Valid;
+import javax.validation.constraints.NotEmpty;
 import java.time.LocalDate;
 
 @Entity
@@ -19,6 +20,8 @@ public class Person{
     private Long id;
 
     @NonNull
+    @NotEmpty
+    @Column(nullable = false)
     private String name;
 
     @NonNull
@@ -27,6 +30,8 @@ public class Person{
     private String hobby;
 
     @NonNull
+    @NotEmpty
+    @Column(nullable = false)
     private String bloodType;
 
     private String address;

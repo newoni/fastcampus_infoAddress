@@ -53,4 +53,9 @@ public class PersonService {
         log.info("person: {}", person);
         return person;
     }
+
+    @Transactional
+    public void put(Person person){
+        personRepository.save(person);
+    }
 }
