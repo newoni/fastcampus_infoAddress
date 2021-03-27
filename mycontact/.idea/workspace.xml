@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd374cd9-4b41-4542-8c01-c93c6b228fb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/javaallinone/project3/mycontact/testdata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/javaallinone/project3/mycontact/controller/dto/PersonDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -20,22 +20,11 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/fastcampus/javaallinone/project3/mycontact/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/fastcampus/javaallinone/project3/mycontact/controller/PersonController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/fastcampus/javaallinone/project3/mycontact/domain/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/fastcampus/javaallinone/project3/mycontact/domain/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/fastcampus/javaallinone/project3/mycontact/service/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/fastcampus/javaallinone/project3/mycontact/service/PersonService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.fastcampus.javaallinone.project3.mycontact.MycontactApplicationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.fastcampus.javaallinone.project3.mycontact.controller.HelloWorldControllerTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.fastcampus.javaallinone.project3.mycontact.repository.PersonRepositoryTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.fastcampus.javaallinone.project3.mycontact.repository.blockRepositoryTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/fastcampus/javaallinone/project3/mycontact/controller/PersonControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/fastcampus/javaallinone/project3/mycontact/controller/PersonControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.fastcampus.javaallinone.project3.mycontact.controller.PersonControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.fastcampus.javaallinone.project3.mycontact.controller.PersonControllerTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.fastcampus.javaallinone.project3.mycontact.controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.fastcampus.javaallinone.project3.mycontact.controller.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.fastcampus.javaallinone.project3.mycontact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.fastcampus.javaallinone.project3.mycontact.repository.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.fastcampus.javaallinone.project3.mycontact.service.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.fastcampus.javaallinone.project3.mycontact.MycontactApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.fastcampus.javaallinone.project3.mycontact.controller.HelloWorldControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.fastcampus.javaallinone.project3.mycontact.repository.PersonRepositoryTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.fastcampus.javaallinone.project3.mycontact.repository.blockRepositoryTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.fastcampus.javaallinone.project3.mycontact.controller.PersonControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.fastcampus.javaallinone.project3.mycontact.controller.PersonControllerTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
@@ -45,6 +34,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/javaallinone/project3/mycontact/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/javaallinone/project3/mycontact/domain/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/javaallinone/project3/mycontact/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/javaallinone/project3/mycontact/service/PersonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/fastcampus/javaallinone/project3/mycontact/controller/PersonControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/javaallinone/project3/mycontact/controller/PersonControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +65,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -160,19 +150,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.PersonControllerTest.postPerson">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.PersonControllerTest.modifyName">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="PersonControllerTest.getPerson" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.fastcampus.javaallinone.project3.mycontact.controller.PersonControllerTest.getPerson&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PersonControllerTest.modifyName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.fastcampus.javaallinone.project3.mycontact.controller.PersonControllerTest.modifyName&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PersonControllerTest.modifyPerson" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.fastcampus.javaallinone.project3.mycontact.controller.PersonControllerTest.modifyPerson&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="PersonControllerTest.postPerson" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -180,69 +231,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.fastcampus.javaallinone.project3.mycontact.controller.PersonControllerTest.postPerson&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PersonServiceTest.getPeopleByNames" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest.getPeopleByNames&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PersonServiceTest.getPeopleExcludeBlocks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest.getPeopleExcludeBlocks&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'mycontact.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -270,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PersonControllerTest.modifyName" />
+        <item itemvalue="Gradle.PersonControllerTest.modifyPerson" />
+        <item itemvalue="Gradle.PersonControllerTest.getPerson" />
         <item itemvalue="Gradle.PersonControllerTest.postPerson" />
         <item itemvalue="HTTP Request.hello#2" />
-        <item itemvalue="Gradle.Tests in 'mycontact.test'" />
-        <item itemvalue="Gradle.PersonServiceTest.getPeopleExcludeBlocks" />
-        <item itemvalue="Gradle.PersonServiceTest.getPeopleByNames" />
       </list>
     </recent_temporary>
   </component>
@@ -306,6 +294,7 @@
       <workItem from="1616487014355" duration="5298000" />
       <workItem from="1616498927018" duration="1655000" />
       <workItem from="1616736886224" duration="2345000" />
+      <workItem from="1616849757032" duration="5351000" />
     </task>
     <servers />
   </component>
