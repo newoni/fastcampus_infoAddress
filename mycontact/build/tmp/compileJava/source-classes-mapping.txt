@@ -12,9 +12,9 @@ com/fastcampus/javaallinone/project3/mycontact/controller/dto/PersonDto.java
  com.fastcampus.javaallinone.project3.mycontact.controller.dto.PersonDto
 com/fastcampus/javaallinone/project3/mycontact/repository/BlockRepository.java
  com.fastcampus.javaallinone.project3.mycontact.repository.BlockRepository
-com/fastcampus/javaallinone/project3/mycontact/domain/Person.java
- com.fastcampus.javaallinone.project3.mycontact.domain.Person
 com/fastcampus/javaallinone/project3/mycontact/service/PersonService.java
  com.fastcampus.javaallinone.project3.mycontact.service.PersonService
+com/fastcampus/javaallinone/project3/mycontact/domain/Person.java
+ com.fastcampus.javaallinone.project3.mycontact.domain.Person
 com/fastcampus/javaallinone/project3/mycontact/controller/PersonController.java
  com.fastcampus.javaallinone.project3.mycontact.controller.PersonController
