@@ -26,7 +26,6 @@ class PersonRepositoryTest {
     void curd(){
         Person person = new Person();
         person.setName("john");
-        person.setAge(10);
         person.setBloodType("A");
 
         personRepository.save(person);
@@ -34,15 +33,11 @@ class PersonRepositoryTest {
 
         assertThat(result.size()).isEqualTo(1);
         assertThat(result.get(0).getName()).isEqualTo("john");
-        assertThat(result.get(0).getAge()).isEqualTo(10);
+//        assertThat(result.get(0).getAge()).isEqualTo(10);
         assertThat(result.get(0).getBloodType()).isEqualTo("A");
 
     }
 
-    @Test
-    void ConstructorTest() {
-        Person person = new Person("martin", 10,"A");
-    }
 
     @Test
     void findByBloodType(){
@@ -64,15 +59,4 @@ class PersonRepositoryTest {
 
     }
 
-    //method overloading
-    private void givenPerson(String name, int age, String bloodType){
-        givenPerson(name, age, bloodType, null);
-    }
-
-    private void givenPerson(String name, int age, String bloodType, LocalDate birthday){
-        Person person = new Person(name, age, bloodType);
-        person.setBirthday(new Birthday(birthday));
-        personRepository.save(person);
-
-    }
 }
