@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">3</div>
+<div class="counter">2</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.161s</div>
+<div class="counter">0.042s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,17 +79,12 @@
 </thead>
 <tr>
 <td class="success">getPeopleByNames()</td>
-<td class="success">0.096s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">getPeopleExcludeBlocks()</td>
-<td class="success">0.039s</td>
+<td class="success">0.033s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">getPerson()</td>
-<td class="success">0.026s</td>
+<td class="success">0.009s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -97,16 +92,15 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2021-03-29 15:44:49.821  INFO 21408 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest], using SpringBootContextLoader
-2021-03-29 15:44:49.826  INFO 21408 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2021-03-29 15:44:49.827  INFO 21408 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest]: PersonServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2021-03-29 15:44:49.895  INFO 21408 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.fastcampus.javaallinone.project3.mycontact.MycontactApplication for test class com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest
-2021-03-29 15:44:49.903  INFO 21408 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2021-03-29 15:44:49.904  INFO 21408 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7191b0b6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@249e84db, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@783f593c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@13982f0f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6f7039ca, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3f18c0a3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3d6c88c5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6f5e2830, org.springframework.test.context.event.EventPublishingTestExecutionListener@18ef278, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@786a3732, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2199a25a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3f1811f1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@49732958, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@600944e3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@c6eb1ca]
-Hibernate: select person0_.id as id1_1_, person0_.address as address2_1_, person0_.day_of_birthday as day_of_b3_1_, person0_.month_of_birthday as month_of4_1_, person0_.year_of_birthday as year_of_5_1_, person0_.block_id as block_i12_1_, person0_.blood_type as blood_ty6_1_, person0_.deleted as deleted7_1_, person0_.hobby as hobby8_1_, person0_.job as job9_1_, person0_.name as name10_1_, person0_.phone_number as phone_n11_1_ from person person0_ where ( person0_.deleted = 0) and person0_.name=?
-Hibernate: select person0_.id as id1_1_, person0_.address as address2_1_, person0_.day_of_birthday as day_of_b3_1_, person0_.month_of_birthday as month_of4_1_, person0_.year_of_birthday as year_of_5_1_, person0_.block_id as block_i12_1_, person0_.blood_type as blood_ty6_1_, person0_.deleted as deleted7_1_, person0_.hobby as hobby8_1_, person0_.job as job9_1_, person0_.name as name10_1_, person0_.phone_number as phone_n11_1_ from person person0_ where ( person0_.deleted = 0) and (person0_.block_id is null)
-Hibernate: select person0_.id as id1_1_0_, person0_.address as address2_1_0_, person0_.day_of_birthday as day_of_b3_1_0_, person0_.month_of_birthday as month_of4_1_0_, person0_.year_of_birthday as year_of_5_1_0_, person0_.block_id as block_i12_1_0_, person0_.blood_type as blood_ty6_1_0_, person0_.deleted as deleted7_1_0_, person0_.hobby as hobby8_1_0_, person0_.job as job9_1_0_, person0_.name as name10_1_0_, person0_.phone_number as phone_n11_1_0_, block1_.id as id1_0_1_, block1_.end_date as end_date2_0_1_, block1_.name as name3_0_1_, block1_.reason as reason4_0_1_, block1_.start_date as start_da5_0_1_ from person person0_ left outer join block block1_ on person0_.block_id=block1_.id where person0_.id=? and ( person0_.deleted = 0)
-2021-03-29 15:44:50.076  INFO 21408 --- [    Test worker] c.f.j.p.mycontact.service.PersonService  : person: Person(id=3, name=dennis, hobby=null, bloodType=O, address=null, birthday=Birthday(yearOfBirthday=1991, monthOfBirthday=10, dayOfBirthday=15), job=null, deleted=false)
+<pre>2021-03-31 19:01:43.396  INFO 7532 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest], using SpringBootContextLoader
+2021-03-31 19:01:43.397  INFO 7532 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-03-31 19:01:43.397  INFO 7532 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest]: PersonServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-03-31 19:01:43.410  INFO 7532 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.fastcampus.javaallinone.project3.mycontact.MycontactApplication for test class com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest
+2021-03-31 19:01:43.413  INFO 7532 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-03-31 19:01:43.414  INFO 7532 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@768a5d5e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@180031dc, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5e625b37, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6ab4b254, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4e7062f1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@57e73432, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1b10661a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5479513e, org.springframework.test.context.event.EventPublishingTestExecutionListener@19d3d6aa, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@77fb2706, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6f43af55, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@712df322, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@764c0d2b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@58a1c7f3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2aeae2b5]
+Hibernate: select person0_.id as id1_0_, person0_.address as address2_0_, person0_.day_of_birthday as day_of_b3_0_, person0_.month_of_birthday as month_of4_0_, person0_.year_of_birthday as year_of_5_0_, person0_.deleted as deleted6_0_, person0_.hobby as hobby7_0_, person0_.job as job8_0_, person0_.name as name9_0_, person0_.phone_number as phone_n10_0_ from person person0_ where ( person0_.deleted = 0) and person0_.name=?
+Hibernate: select person0_.id as id1_0_0_, person0_.address as address2_0_0_, person0_.day_of_birthday as day_of_b3_0_0_, person0_.month_of_birthday as month_of4_0_0_, person0_.year_of_birthday as year_of_5_0_0_, person0_.deleted as deleted6_0_0_, person0_.hobby as hobby7_0_0_, person0_.job as job8_0_0_, person0_.name as name9_0_0_, person0_.phone_number as phone_n10_0_0_ from person person0_ where person0_.id=? and ( person0_.deleted = 0)
+2021-03-31 19:01:43.455  INFO 7532 --- [    Test worker] c.f.j.p.mycontact.service.PersonService  : person: Person(id=3, name=dennis, hobby=null, address=null, birthday=Birthday(yearOfBirthday=1991, monthOfBirthday=10, dayOfBirthday=15), job=null, phoneNumber=null, deleted=false)
 </pre>
 </span>
 </div>
@@ -118,7 +112,7 @@ Hibernate: select person0_.id as id1_1_0_, person0_.address as address2_1_0_, pe
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021. 3. 29. 오후 3:44:50</p>
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021. 3. 31. 오후 7:01:43</p>
 </div>
 </div>
 </body>
