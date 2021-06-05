@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37a83930-23e3-4877-89eb-da93e212537b" name="Default Changelist" comment="" />
+    <list default="true" id="37a83930-23e3-4877-89eb-da93e212537b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycontact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mycontact/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycontact/src/test/java/com/fastcampus/javaallinone/project3/mycontact/service/PersonServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mycontact/src/test/java/com/fastcampus/javaallinone/project3/mycontact/service/PersonServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +40,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
