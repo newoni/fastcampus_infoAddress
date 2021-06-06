@@ -1,11 +1,14 @@
-com/fastcampus/javaallinone/project3/mycontact/controller/PersonControllerTest.java
- com.fastcampus.javaallinone.project3.mycontact.controller.PersonControllerTest
+com/fastcampus/javaallinone/project3/mycontact/MycontactApplicationTests.java
+ com.fastcampus.javaallinone.project3.mycontact.MycontactApplicationTests
 com/fastcampus/javaallinone/project3/mycontact/controller/HelloWorldControllerTest.java
  com.fastcampus.javaallinone.project3.mycontact.controller.HelloWorldControllerTest
 com/fastcampus/javaallinone/project3/mycontact/repository/PersonRepositoryTest.java
  com.fastcampus.javaallinone.project3.mycontact.repository.PersonRepositoryTest
-com/fastcampus/javaallinone/project3/mycontact/MycontactApplicationTests.java
- com.fastcampus.javaallinone.project3.mycontact.MycontactApplicationTests
+com/fastcampus/javaallinone/project3/mycontact/controller/PersonControllerTest.java
+ com.fastcampus.javaallinone.project3.mycontact.controller.PersonControllerTest
 com/fastcampus/javaallinone/project3/mycontact/service/PersonServiceTest.java
  com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest
+ com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest$IsNameWillBeUpdated
+ com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest$IsPersonWillBeDeleted
+ com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest$IsPersonWillBeInserted
  com.fastcampus.javaallinone.project3.mycontact.service.PersonServiceTest$IsPersonWillBeUpdated
