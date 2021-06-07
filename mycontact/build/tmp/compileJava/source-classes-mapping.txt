@@ -15,6 +15,10 @@ com/fastcampus/javaallinone/project3/mycontact/domain/Person.java
  com.fastcampus.javaallinone.project3.mycontact.domain.Person
 com/fastcampus/javaallinone/project3/mycontact/domain/dto/Birthday.java
  com.fastcampus.javaallinone.project3.mycontact.domain.dto.Birthday
+com/fastcampus/javaallinone/project3/mycontact/exception/RenameNotPermittedException.java
+ com.fastcampus.javaallinone.project3.mycontact.exception.RenameNotPermittedException
+com/fastcampus/javaallinone/project3/mycontact/exception/PersonNotFoundException.java
+ com.fastcampus.javaallinone.project3.mycontact.exception.PersonNotFoundException
 com/fastcampus/javaallinone/project3/mycontact/service/PersonService.java
  com.fastcampus.javaallinone.project3.mycontact.service.PersonService
 com/fastcampus/javaallinone/project3/mycontact/controller/PersonController.java
